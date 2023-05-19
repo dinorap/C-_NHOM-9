@@ -3,10 +3,10 @@
  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
  xmlns:local="clr-namespace:NHOM9"
  Title="PHẦN MỀM QUẢN LÍ NHÂN SỰ PHENIKAA" Height="546" Width="838.4"
- FontFamily="Goudy Stout" FontWeight="Bold" Icon="information-pamphlet.png">
+ WindowStartupLocation="CenterScreen" FontFamily="Goudy Stout" FontWeight="Bold" Icon="information-pamphlet.png">
     <Grid>
         <Image Source="hinhanh/logophenikaa-uni.jpg" Stretch="Fill" Margin="0,34,0,0"/>
-        <Menu Margin="0,0,0,487">
+        <Menu Margin="0,0,0,482">
             <MenuItem x:Name="mniDanhMuc" Header="Danh mục" Width="95" Height="35" VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="Times New Roman" FontWeight="Bold">
                 <MenuItem.Icon>
                     <Image Source="hinhanh/options.png" HorizontalAlignment="Center" Width="16" Height="16"/>
